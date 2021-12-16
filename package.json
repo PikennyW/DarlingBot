@@ -7,6 +7,6 @@
   "start": "Darling.js"
   },
   "dependencies": {
-    "@adiwajshing/baileys": "^3.4.1"
+    "@adiwajshing/baileys": "^3.5.3"
   }
 }
