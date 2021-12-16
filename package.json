@@ -1,0 +1,12 @@
+{
+  "name": "DarlingBot",
+  "version": "1.0.0",
+  "description": "DarlingBot es una bot para WhatsApp multifucional programada en JavaScript y Bash capaz de ejecutar diversas tareas mediante comandos",
+  "main": "Darling.js",
+  "scripts": {
+  "start": "Darling.js"
+  },
+  "dependencies": {
+    "@adiwajshing/baileys": "^3.4.1"
+  }
+}
