@@ -1,5 +1,9 @@
 const { WAConnection } = require(`@adiwajshing/baileys`);
 const fs = require(`fs`);
+const ment = require("moment-timezone");
+const { color } = require('./lib/color');
+prefix = '-'
+
 
 async function iniciar () { 
         const Pike = new WAConnection()
