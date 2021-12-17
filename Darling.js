@@ -3,6 +3,12 @@ const fs = require(`fs`);
 const ment = require("moment-timezone");
 const { color } = require('./lib/color');
 prefix = '-'
+const vcard = 'BEGIN:VCARD\n'
+                +'VERSION:3.0\n'
+                +'FN:Pikenny\n'
+                +'ORG:ThisIsPikenny\n'
+                +'TEL;type=CELL;type=VOICE;waid=51966653383:+51 966 653 383\n'
+                +'END:VCARD'
 
 
 async function iniciar () { 
