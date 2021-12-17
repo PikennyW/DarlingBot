@@ -15,6 +15,12 @@ async function iniciar () {
         const Pike = new WAConnection()
 
         Pike.logger.level = `warn`
+    Cfonts.say('Neko-Chan', {
+    colors: ['#3F1665'],
+    font: 'block',
+    align: 'center', //'center'
+    })
+    
 
         Pike.on(`qr`, () => {
         })
